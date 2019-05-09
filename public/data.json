@@ -1,0 +1,202 @@
+{
+    "1": {
+        "location": 1,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "2": {
+        "location": 2,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "3": {
+        "location": 3,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "4": {
+        "location": 4,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "5": {
+        "location": 5,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "6": {
+        "location": 6,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "7": {
+        "location": 7,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "8": {
+        "location": 8,
+        "brand": "Jordan",
+        "style": "11 Retro Low Snake Navy (2019)",
+        "size": 9,
+        "upcId": "000567890",
+        "hasStock": true
+    },
+    "9": {
+        "location": 9,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "10": {
+        "location": 10,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "11": {
+        "location": 11,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "12": {
+        "location": 12,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "13": {
+        "location": 13,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "14": {
+        "location": 14,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "15": {
+        "location": 15,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "16": {
+        "location": 16,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "17": {
+        "location": 17,
+        "brand": "Jordan",
+        "style": "4 Retro Bred (2019)",
+        "size": 10,
+        "upcId": "434234231231",
+        "hasStock": true
+    },
+    "18": {
+        "location": 18,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "19": {
+        "location": 19,
+        "brand": "Nike",
+        "style": "Blazer Mid 77 Vintage Slam Jam",
+        "size": 11,
+        "upcId": "567938103",
+        "hasStock": true
+    },
+    "20": {
+        "location": 20,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "21": {
+        "location": 21,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "22": {
+        "location": 22,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "23": {
+        "location": 23,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "24": {
+        "location": 24,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    },
+    "25": {
+        "location": 25,
+        "brand": "",
+        "style": "",
+        "size": 0,
+        "upcId": 0,
+        "hasStock": false
+    }
+}
