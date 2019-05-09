@@ -9,7 +9,7 @@ function FormModal(props) {
         location: props.shelfId,
         brand: '',
         style: '',
-        size: 0,
+        size: 1,
         upcId: '',
         hasStock: false,
     };
@@ -35,13 +35,13 @@ function FormModal(props) {
       <Modal.Body>
         <Form>
           <Form.Label>Brand</Form.Label>
-          <Form.Control type="text" placeholder="Enter brand" value={stock.brand} onChange={(event) => setField('brand', event.target.value)}/>
+          <Form.Control type="text" placeholder="Enter brand" value={stock.brand || ''} onChange={(event) => setField('brand', event.target.value)}/>
           <Form.Label>Style</Form.Label>
-          <Form.Control type="text" placeholder="Enter style" value={stock.style} onChange={(event) => setField('style', event.target.value)} />
+          <Form.Control type="text" placeholder="Enter style" value={stock.style || ''} onChange={(event) => setField('style', event.target.value)} />
           <Form.Label>Size</Form.Label>
-          <Form.Control type="text" placeholder="Enter size" value={stock.size} onChange={(event) => setField('size', event.target.value)} />
+          <Form.Control type="text" placeholder="Enter size" value={stock.size || ''} onChange={(event) => setField('size', event.target.value)} />
           <Form.Label>UPC ID</Form.Label>
-          <Form.Control type="text" placeholder="Enter UPC ID" value={stock.upcId} onChange={(event) => setField('upcId', event.target.value)} />
+          <Form.Control type="text" placeholder="Enter UPC ID" value={stock.upcId || ''} onChange={(event) => setField('upcId', event.target.value)} />
         </Form>
       </Modal.Body>
 
