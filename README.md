@@ -2,7 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### How to Run
 ```yarn install```
-```yarn test```
+
+
+```yarn start```
 
 ### Notes
 
