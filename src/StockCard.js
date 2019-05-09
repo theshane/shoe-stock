@@ -34,7 +34,7 @@ function StockCard(props) {
           }}>
         <Card.Body>
           <Card.Title>Shelf {props.shelf.location}</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">Shelf{props.shelf.hasStock ? `${props.shelf.brand} ${props.shelf.style}` : 'No Stock'}</Card.Subtitle>
+          <Card.Subtitle className="mb-2 text-muted">{props.shelf.hasStock ? `${props.shelf.brand} ${props.shelf.style}` : 'No Stock'}</Card.Subtitle>
             <div>Size: {props.shelf.size}</div>
             <div>UPC ID: {props.shelf.upcId}</div>
         </Card.Body>
