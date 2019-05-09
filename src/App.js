@@ -55,8 +55,13 @@ function App() {
                 if(!filterText) {
                   return true;
                 }
-
-                return JSON.stringify(stock[key]).toLowerCase().includes(filterText.toLowerCase());
+                return stock[key].brand.toLowerCase().includes(filterText.toLowerCase())
+                  ||
+                  stock[key].style.toLowerCase().includes(filterText.toLowerCase())
+                  ||
+                  stock[key].upcId.toString().toLowerCase().includes(filterText.toLowerCase())
+                  ||
+                  key === filterText;
             }).map((location, index) => {
             return (
               <Col key={index}>
