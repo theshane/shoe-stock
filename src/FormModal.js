@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Modal from "react-bootstrap/Modal.js";
 import Button from "react-bootstrap/Button.js";
 import Form from "react-bootstrap/Form.js";
+import PropTypes from 'prop-types';
 
 function FormModal(props) {
     const defaultStock = {
@@ -53,6 +54,14 @@ function FormModal(props) {
       </Modal.Footer>
     </Modal>
   );
+}
+
+FormModal.propTypes = {
+    show: PropTypes.bool.isRequired,
+    shelfId: PropTypes.number.isRequired,
+    setShowModal: PropTypes.func.isRequired,
+    updateStock: PropTypes.func.isRequired,
+    stock: PropTypes.object.isRequired,
 }
 
 export default FormModal;

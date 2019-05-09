@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card.js';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Spacing = styled.div`
     padding: 10px;
@@ -40,6 +41,12 @@ function StockCard(props) {
       </StyledCard>
       </Spacing>
     );
+}
+
+StockCard.propTypes = {
+    setCurrentShelfId: PropTypes.func.isRequired,
+    setShowModal: PropTypes.func.isRequired,
+    shelf: PropTypes.object.isRequired,
 }
 
 export default StockCard;
