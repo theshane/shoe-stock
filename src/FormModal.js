@@ -9,7 +9,7 @@ function FormModal(props) {
         location: props.shelfId,
         brand: '',
         style: '',
-        size: 1,
+        size: 0,
         upcId: '',
         hasStock: false,
     };
