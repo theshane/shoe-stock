@@ -38,8 +38,6 @@ function App() {
     setShowModal(false);
   };
 
-  console.log(currentShelfId, stock[currentShelfId]);
-
   return (
     <div>
       <FormModal
@@ -52,9 +50,9 @@ function App() {
       <Navbar />
       <StyledContainer>
         <Row>
-          {Object.keys(stock).map(location => {
+          {Object.keys(stock).map((location, index) => {
             return (
-              <Col>
+              <Col key={index}>
                 <StockCard
                   shelf={stock[location]}
                   setShowModal={setShowModal}

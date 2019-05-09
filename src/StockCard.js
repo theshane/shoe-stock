@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Card from 'react-bootstrap/Card.js';
-import Form from 'react-bootstrap/Form.js';
 import styled from 'styled-components';
 
 const Spacing = styled.div`
@@ -24,14 +23,8 @@ min-width: 200px;
 cursor: pointer;
 `;
 
-const FieldLabel = styled.span`
-`;
-
-const FieldValue = styled.span`
-`;
 
 function StockCard(props) {
-    const [showForm, setShowForm] = useState(false);
     return (
         <Spacing>
         <StyledCard onClick={() => {
@@ -41,10 +34,8 @@ function StockCard(props) {
         <Card.Body>
           <Card.Title>{props.shelf.location}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{props.shelf.hasStock ? `${props.shelf.brand} ${props.shelf.style}` : 'No Stock'}</Card.Subtitle>
-          <Card.Text>
-            <div><FieldLabel>Size:</FieldLabel> <FieldValue>{props.shelf.size}</FieldValue></div>
-            <div><FieldLabel>UPC ID:</FieldLabel> <FieldValue>{props.shelf.upcId}</FieldValue></div>
-          </Card.Text>
+            <div>Size: {props.shelf.size}</div>
+            <div>UPC ID: {props.shelf.upcId}</div>
         </Card.Body>
       </StyledCard>
       </Spacing>
