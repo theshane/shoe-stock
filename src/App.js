@@ -15,6 +15,7 @@ const StyledContainer = styled(Container)`
   margin-top: 30px;
 `;
 
+
 function App() {
   const [stock, setStock] = useState({});
   const [showModal, setShowModal] = useState(false);
@@ -38,6 +39,7 @@ function App() {
     setStock({ ...stock });
     setShowModal(false);
   };
+  
 
   return (
     <div>
@@ -64,7 +66,7 @@ function App() {
                   key === filterText;
             }).map((location, index) => {
             return (
-              <Col key={index}>
+              <Col key={index} >
                 <StockCard
                   shelf={stock[location]}
                   setShowModal={setShowModal}
