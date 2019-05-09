@@ -19,6 +19,7 @@ function App() {
   const [stock, setStock] = useState({});
   const [showModal, setShowModal] = useState(false);
   const [currentShelfId, setCurrentShelfId] = useState(0);
+  const [filterText, setFilterText] = useState('');
 
   useEffect(() => {
     const fetchData = () => {
@@ -47,10 +48,16 @@ function App() {
         updateStock={updateStock}
         stock={stock[currentShelfId] || {}}
       />
-      <Navbar />
+      <Navbar filterText={filterText} setFilterText={setFilterText} />
       <StyledContainer>
         <Row>
-          {Object.keys(stock).map((location, index) => {
+          {Object.keys(stock).filter((key) => {
+                if(!filterText) {
+                  return true;
+                }
+
+                return JSON.stringify(stock[key]).toLowerCase().includes(filterText.toLowerCase());
+            }).map((location, index) => {
             return (
               <Col key={index}>
                 <StockCard
